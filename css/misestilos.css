@@ -45,3 +45,9 @@ input[type=email]:focus{
 #mensaje{
    height: 80px;
 }
+
+.carousel-inner > .carousel-item > img {
+   width:640px;
+   height:360px;
+ }
+ 
