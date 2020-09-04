@@ -1,0 +1,47 @@
+/* Estilos personalizados para la página según indicaciones del
+   proyecto
+*/
+
+h1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 35px;
+   font-weight: bold;
+   color: #000000;
+}
+
+p{
+   font-family: 'Times New Roman', Times, serif;
+   color: #021222;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Inicio
+/*-----------------------------------------------------------------------------------*/
+header .redes-sociales{
+   display: flex;
+   justify-content: center;
+}
+
+#about .img-responsive{
+   border-radius: 30%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Contacto
+/*-----------------------------------------------------------------------------------*/
+
+input[type=text]:focus{
+   border-radius: 10px;
+   color: #000000;
+}
+
+input[type=email]:focus{
+   border-radius: 10px;
+   color: #000000;
+}
+
+#mensaje{
+   height: 80px;
+}

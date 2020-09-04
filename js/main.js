@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+      strings: ["Victor Guillermo Flores Dubón.", "Asesor Informático.", "Desarrollador.", "Freelancer."],
       typeSpeed: 100,
       loop: true,
     });
