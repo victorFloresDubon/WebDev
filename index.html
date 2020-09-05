@@ -31,6 +31,19 @@
   <!--  Mis estilos -->
   <link rel="stylesheet" href="css/misestilos.css">
 
+  <!-- Tab styles-->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+  <!-- DataTable -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">  
+
+  <!-- Tabs script -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  
+
 </head>
 
 <body>
@@ -113,24 +126,23 @@
     <section>
       <div id="proyectos" class="paddsection">
         <div class="container">
-          <div class="row justify-content-between">
-            <div id="pestanas">
-              <ul>
-                <li><a href="#tabs-1">Proyecto 1</a></li>
-                <li><a href="#tabs-2">Migración a Régimen FEL</a></li>
-                <li><a href="#tabs-3">Implementación de APP usando Oracle APEX</a></li>
-              </ul>
-              <div id="tabs-1">
-                <p>Realización de sitio web personal como primer proyecto del curso de Desarrollo Web de la Universidad Mariano Galvez de Guatemala.  Esto para poner a prueba los conocimientos adquiridos durante las primeras sesiones del curso usando HTML, CSS y JavaScript.  Además del uso de librerías como jQuery.</p>
-              </div>
-              <div id="tabs-2">
-                <p>Implementación de una interfaz programada en lenguaje Java con las librerías para la emisión de Documentos Tributarios Electrónicos (DTE) para ser combinada con el sistema desarrollado en Oracle Forms 6i.</p>
-              </div>
-              <div id="tabs-3">
-                <p>Desarrollo de una plataforma utilizando Application Express de Oracle para la consulta remota de ventas y generacióon de cotizaciones para una corporación.</p>
-              </div>
+          <div id="pestanas">
+            <ul>
+              <li><a href="#tabs-1">Nunc tincidunt</a></li>
+              <li><a href="#tabs-2">Proin dolor</a></li>
+              <li><a href="#tabs-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
             </div>
-          </div>
+            <div id="tabs-2">
+              <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+            </div>
+            <div id="tabs-3">
+              <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+              <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+          </div>          
         </div>
       </div>
     </section>
@@ -247,148 +259,124 @@
     </section>
     <!-- Fin sección "skills" -->
   
-  <!-- Inicio sección portfolio -->
+  <!-- Inicio sección referencias -->
   <section>
     <div id="portfolio" class="text-center paddsection">
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>My Portfolio</h2>
+          <h2>Referencias</h2>
         </div>
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="portfolio-list">
-
-              <ul class="nav list-unstyled" id="portfolio-flters">
-                <li class="filter filter-active" data-filter=".all">all</li>
-                <li class="filter" data-filter=".branding">branding</li>
-                <li class="filter" data-filter=".mockups">mockups</li>
-                <li class="filter" data-filter=".uikits">ui kits</li>
-                <li class="filter" data-filter=".webdesign">web design</li>
-                <li class="filter" data-filter=".photography">photography</li>
-              </ul>
-
-            </div>
-
-            <div class="portfolio-container">
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-                <a class="popup-img" href="images/portfolio/1.jpg">
-                  <img src="images/portfolio/1.jpg" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-                <a class="popup-img" href="images/portfolio/2.jpg">
-                  <img src="images/portfolio/2.jpg"  alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-                <a class="popup-img" href="images/portfolio/3.jpg">
-                  <img src="images/portfolio/3.jpg" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-                <a class="popup-img" href="images/portfolio/4.jpg">
-                  <img src="images/portfolio/4.jpg" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-                <a class="popup-img" href="images/portfolio/5.jpg">
-                  <img src="images/portfolio/5.jpg" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-                <a class="popup-img" href="images/portfolio/6.jpg">
-                  <img src="images/portfolio/6.jpg" alt="img">
-                </a>
-              </div>
-
-            </div>
-          </div>
-        </div>
+        <table id="refs" class="display">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Teléfono</th>
+              <th>Correo electrónico</th>
+              <th>Parentesco</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>+502 3703-7960</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+            <tr>
+              <td>Juan Enrique Pasoz</td>
+              <td>.</td>
+              <td>.</td>
+              <td>Amigo</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
     </div>
   </section>
-  <!-- End section portfolio -->
-
-
-  <!-- start section journal -->
-  <div id="journal" class="text-left paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>journal</h2>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="journal-block">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
-
-              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
-
-              <div class="journal-txt">
-
-                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
-
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
-
-              <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
-
-              <div class="journal-txt">
-
-                <h4><a href="#blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
-
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="journal-info">
-
-              <a href="blog-single.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
-
-              <div class="journal-txt">
-
-                <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                <p class="separator">To an English person, it will seem like simplified English
-                </p>
-
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- End section journal -->
+  <!-- End section referencias -->
 
   <!-- start section footer -->
   <footer>
@@ -422,6 +410,7 @@
     </footer>
   <!-- End section footer -->
 
+  <script src="js/dataTable.js"></script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
@@ -431,6 +420,8 @@
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
+  <!-- DataTable script-->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
@@ -441,9 +432,7 @@
   <!-- Validaciones del formulario -->
   <script src="js/formulario.js"></script>
 
-  <!-- Tabs -->
-  <script src="js/tabs.js"></script>
-
+  <script src="js/dataTable.js"></script>
 </body>
 
 </html>
