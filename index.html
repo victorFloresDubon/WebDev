@@ -31,6 +31,10 @@
   <!--  Mis estilos -->
   <link rel="stylesheet" href="css/misestilos.css">
 
+  <!-- Tabs Widget jQuery UI-->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+  
 </head>
 
 <body>
@@ -44,7 +48,7 @@
 
         <ul class="nav-menu list-unstyled">
           <li><a href="#about" class="smoothScroll">Acerca de mi</a></li>
-          <li><a href="#about" class="smoothScroll">Proyectos</a></li>
+          <li><a href="#proyectos" class="smoothScroll">Proyectos</a></li>
           <li><a href="#contact" class="smoothScroll">Contacto</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portafolio</a></li>
           <li><a href="#journal" class="smoothScroll">Anuncios</a></li>
@@ -111,10 +115,25 @@
 
     <!-- Inicia sección "Proyectos" -->
     <section>
-      <div id="contact" class="paddsection">
+      <div id="proyectos" class="paddsection">
         <div class="container">
           <div class="row justify-content-between">
-
+            <div id="pestanas">
+              <ul>
+                <li><a href="#tabs-1">Proyecto 1</a></li>
+                <li><a href="#tabs-2">Migración a Régimen FEL</a></li>
+                <li><a href="#tabs-3">Implementación de APP usando Oracle APEX</a></li>
+              </ul>
+              <div id="tabs-1">
+                <p>Realización de sitio web personal como primer proyecto del curso de Desarrollo Web de la Universidad Mariano Galvez de Guatemala.  Esto para poner a prueba los conocimientos adquiridos durante las primeras sesiones del curso usando HTML, CSS y JavaScript.  Además del uso de librerías como jQuery.</p>
+              </div>
+              <div id="tabs-2">
+                <p>Implementación de una interfaz programada en lenguaje Java con las librerías para la emisión de Documentos Tributarios Electrónicos (DTE) para ser combinada con el sistema desarrollado en Oracle Forms 6i.</p>
+              </div>
+              <div id="tabs-3">
+                <p>Desarrollo de una plataforma utilizando Application Express de Oracle para la consulta remota de ventas y generacióon de cotizaciones para una corporación.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -210,7 +229,7 @@
               <img class="d-block w-100" src="images/skills/java.jpg" alt="java">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="images/skills/cpp.png" alt="cpp">
+              <img class="d-block w-100" src="images/skills/cpp.jpg" alt="cpp">
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="images/skills/apex.png" alt="apex">
@@ -424,6 +443,13 @@
 
   <!-- Validaciones del formulario -->
   <script src="js/formulario.js"></script>
+
+  <!-- jQuery UI-->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <!-- Tabs -->
+  <script src="js/tabs.js"></script>
 
 </body>
 
