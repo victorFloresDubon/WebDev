@@ -1,5 +1,5 @@
 $(document).ready( function () {
-    $('#refs').DataTable({
-        "pageLength": 5
+    $("#referencias").DataTable({
+        "pageLength":5
     });
-} );
+});
